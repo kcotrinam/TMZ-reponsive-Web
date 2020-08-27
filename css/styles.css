@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -35,6 +35,11 @@ li {
 
 .width-100 {
   width: 100%;
+}
+
+.width-90 {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .grid {
@@ -112,11 +117,11 @@ li {
 }
 
 .banner2 {
-  background: url('../images&svgs/boris-chair-gq-796x417.png');
+  background: url("../images&svgs/boris-chair-gq-796x417.png");
 }
 
 .banner3 {
-  background: url('../images&svgs/tnw2020-empty_feature_img.jpg');
+  background: url("../images&svgs/tnw2020-empty_feature_img.jpg");
 }
 
 .banner > span {
@@ -126,8 +131,8 @@ li {
   background: linear-gradient(transparent, rgb(0, 0, 0));
 }
 
-.article-container h2,
-.article-container p {
+.banner h2,
+.banner p {
   font-size: 17px;
   color: white;
   font-weight: 900;
@@ -135,8 +140,8 @@ li {
   margin-left: 0.7rem;
 }
 
-.article-container p,
-.article-container a {
+.banner p,
+.banner a {
   color: rgba(255, 255, 255, 0.65);
   font-size: 12px;
   font-weight: 500;
@@ -161,8 +166,6 @@ li {
 }
 
 .news-container {
-  width: 90%;
-  margin: 0 auto;
   flex-wrap: wrap;
 }
 
@@ -202,7 +205,6 @@ li {
 /* --------------------- LATEST FUNDING ------------- */
 
 .latest-funding {
-  width: 90%;
   margin: 30px auto;
 }
 
@@ -275,4 +277,64 @@ li {
   line-height: 19px;
   padding: 15px;
   background-color: rgba(255, 68, 34, 0.05);
+}
+
+/* ----------------------- HARD FORK SECTION --------------- */
+
+.news-sections h1 {
+  font-family: "Russo One", Helvetica, sans-serif;
+}
+
+.article__banner {
+  height: 280px;
+}
+
+.article__banner h1 {
+  margin: 150px 0 0 0.7rem;
+  color: #fff;
+  font-size: 11px;
+}
+
+.article__banner h2 {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.article__banner p {
+  margin-top: 0.5rem;
+}
+
+.first__hard-fork__article {
+  background: url(../images&svgs/unicorn.png) center/cover;
+  margin-bottom: 2px;
+}
+
+.articles-ul {
+  margin-top: 18px;
+}
+
+.featured__article {
+  background-color: rgba(255, 68, 34, 0.06);
+}
+
+.featured__article header {
+  padding: 8px;
+}
+
+.featured__article h4 {
+  font-weight: 100;
+  font-size: 13px;
+}
+
+.featured__article h5 {
+  font-weight: 700;
+}
+
+.news-sections__anchor {
+  background-image: url(../images&svgs/bitcoin_today-header_bitcoin_today.jpg);
+  background-size: cover;
+  background-position: center;
+  display: block;
+  min-width: 96px;
+  min-height: 96px;
 }
