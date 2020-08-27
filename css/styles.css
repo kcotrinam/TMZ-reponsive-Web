@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.page-header {
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+.left {
+  width: 106px;
+  height: 48px;
+  background-image: url(../images&svgs/TMZ-logo.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.right {
+  height: 48px;
+}
+
+.right i {
+  padding: 20px;
+  border-left: 1px solid #ebebeb;
+}
+
+.fa-bars {
+  color: red;
+}
+
+.spacer {
+  height: 48px;
+  background-color: #fd3;
+  text-align: center;
+  position: fixed;
+  top: 48px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.spacer p,
+.spacer i {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
