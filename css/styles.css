@@ -5,11 +5,24 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
   text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+.center-auto {
+  margin: 0 auto;
+}
+
+.red {
+  color: #f42;
 }
 
 .d-flex {
@@ -99,11 +112,11 @@ a {
 }
 
 .banner2 {
-  background: url("../images&svgs/boris-chair-gq-796x417.png");
+  background: url('../images&svgs/boris-chair-gq-796x417.png');
 }
 
 .banner3 {
-  background: url("../images&svgs/tnw2020-empty_feature_img.jpg");
+  background: url('../images&svgs/tnw2020-empty_feature_img.jpg');
 }
 
 .banner > span {
@@ -184,4 +197,82 @@ a {
 
 .details time {
   margin-left: 4px;
+}
+
+/* --------------------- LATEST FUNDING ------------- */
+
+.latest-funding {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.fund-nav__list,
+.fund-nav__list * + * {
+  margin-top: 11px;
+}
+
+.fund-nav__list {
+  font-size: 12px;
+}
+
+/* --------------------- LATEST FUNDING-CARDS ------------- */
+
+.card {
+  margin-top: 20px;
+}
+
+.card__title,
+.card__subtitle {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card__title {
+  background: tomato;
+  padding: 11px 11px 11px 70px;
+}
+
+.card__subtitle {
+  font-size: 15px;
+  background: rgba(255, 68, 34, 0.1);
+  line-height: 20px;
+  padding: 0.5rem;
+}
+
+.card__subtitle span {
+  display: block;
+  font-size: 9px;
+  font-weight: 200;
+  color: hsl(0, 0, 15%);
+}
+
+.card__img {
+  width: 60px;
+  height: 60px;
+  margin: 11px;
+  float: left;
+}
+
+.card__options {
+  clear: left;
+  padding: 15px;
+  background-color: rgba(255, 68, 34, 0.05);
+  border-bottom: 2px solid rgba(255, 68, 34, 0.2);
+}
+
+.card__options a {
+  font-size: 14px;
+  display: block;
+  line-height: 30px;
+}
+
+.card__options i {
+  margin-right: 5px;
+}
+
+.card__footer {
+  font-size: 10px;
+  line-height: 19px;
+  padding: 15px;
+  background-color: rgba(255, 68, 34, 0.05);
 }
