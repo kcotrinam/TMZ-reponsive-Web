@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -14,6 +14,10 @@ a {
 
 .d-flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .width-100 {
@@ -30,6 +34,8 @@ a {
   align-items: center;
   position: sticky;
   top: 0;
+  z-index: 10;
+  background-color: #fff;
 }
 
 .left {
@@ -58,13 +64,13 @@ a {
   background-color: #fd3;
   text-align: center;
   position: sticky;
+  z-index: 10;
   top: 48px;
   font-size: 10px;
   font-weight: 600;
 }
 
-.spacer p,
-.spacer i {
+.spacer p {
   position: relative;
   top: 50%;
   left: 50%;
@@ -79,6 +85,8 @@ a {
 
 .article-container {
   margin: 0 0.5em;
+  position: relative;
+  z-index: 1;
 }
 
 .article-container * + * {
@@ -91,11 +99,11 @@ a {
 }
 
 .banner2 {
-  background: url('../images&svgs/boris-chair-gq-796x417.png');
+  background: url("../images&svgs/boris-chair-gq-796x417.png");
 }
 
 .banner3 {
-  background: url('../images&svgs/tnw2020-empty_feature_img.jpg');
+  background: url("../images&svgs/tnw2020-empty_feature_img.jpg");
 }
 
 .banner > span {
@@ -127,4 +135,53 @@ a {
 
 .banner p {
   margin-top: 0.3rem;
+}
+
+/* --------------------- LATEST NEWS SECTION ------------- */
+
+.latest-news {
+  margin-top: 50px;
+}
+
+.latest-news h1 {
+  margin: 20px;
+}
+
+.news-container {
+  width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.news {
+  margin-bottom: 12px;
+}
+
+.img-div {
+  min-width: 75px;
+  min-height: 75px;
+}
+
+.img-div img {
+  display: block;
+  width: 75px;
+  height: 75px;
+}
+
+.details {
+  padding: 8px 0 0 12px;
+}
+
+.details h2,
+.details a,
+.details time {
+  font-size: 14px;
+}
+
+.details h2 {
+  margin-bottom: 3px;
+}
+
+.details time {
+  margin-left: 4px;
 }
