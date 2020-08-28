@@ -315,6 +315,7 @@ li {
 
 .featured__article {
   background-color: rgba(255, 68, 34, 0.06);
+  margin-bottom: 10px;
 }
 
 .featured__article header {
@@ -337,4 +338,22 @@ li {
   display: block;
   min-width: 96px;
   min-height: 96px;
+}
+
+.normal-li {
+  border-bottom: 1px solid #aaa;
+}
+
+.normal-li a {
+  color: #aaa;
+  font-size: 11px;
+}
+
+.normal-li a::before {
+  content: "\2022";
+  color: #f42;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
