@@ -5,11 +5,11 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .russo-font {
-  font-family: 'Russo One', Helvetica, sans-serif;
+  font-family: "Russo One", Helvetica, sans-serif;
 }
 
 a {
@@ -121,11 +121,11 @@ li {
 }
 
 .banner2 {
-  background: url('../images&svgs/boris-chair-gq-796x417.png');
+  background: url("../images&svgs/boris-chair-gq-796x417.png");
 }
 
 .banner3 {
-  background: url('../images&svgs/tnw2020-empty_feature_img.jpg');
+  background: url("../images&svgs/tnw2020-empty_feature_img.jpg");
 }
 
 .banner > .bg-gradient {
@@ -186,6 +186,28 @@ li {
 .img-div {
   min-width: 75px;
   min-height: 75px;
+}
+
+.news-article1 {
+  background: url(../images&svgs/latest-news-imgs/1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.news-article2 {
+  background-image: url(../images&svgs/latest-news-imgs/2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.news-article3 {
+  background-image: url(../images&svgs/latest-news-imgs/3.png);
+  background-position: center;
+  background-size: cover;
+}
+.news-article4 {
+  background-image: url(../images&svgs/latest-news-imgs/4.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .img-div img {
@@ -403,7 +425,7 @@ li {
 }
 
 .normal-li a::before {
-  content: '\2022';
+  content: "\2022";
   color: #f42;
   font-weight: bold;
   display: inline-block;
@@ -498,6 +520,10 @@ li {
     justify-content: flex-start;
   }
 
+  .spacer {
+    top: 80px;
+  }
+
   .left {
     min-width: 106px;
     height: 80px;
@@ -579,5 +605,28 @@ li {
   .banner3 {
     margin-top: 0;
     height: 239px;
+  }
+
+  /* --------------------- LATEST NEWS SECTION ---------------- */
+
+  .news-container {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .news {
+    display: block;
+    width: 31%;
+    margin: 7px;
+  }
+
+  .img-div {
+    height: 0;
+    padding-top: 50%;
+  }
+
+  .img-div img {
+    width: 100%;
+    height: 100%;
   }
 }
