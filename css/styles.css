@@ -5,11 +5,11 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .russo-font {
-  font-family: 'Russo One', Helvetica, sans-serif;
+  font-family: "Russo One", Helvetica, sans-serif;
 }
 
 a {
@@ -121,11 +121,11 @@ li {
 }
 
 .banner2 {
-  background: url('../images&svgs/boris-chair-gq-796x417.png');
+  background: url("../images&svgs/boris-chair-gq-796x417.png");
 }
 
 .banner3 {
-  background: url('../images&svgs/tnw2020-empty_feature_img.jpg');
+  background: url("../images&svgs/tnw2020-empty_feature_img.jpg");
 }
 
 .banner > .bg-gradient {
@@ -398,7 +398,7 @@ li {
 }
 
 .normal-li a::before {
-  content: '\2022';
+  content: "\2022";
   color: #f42;
   font-weight: bold;
   display: inline-block;
@@ -484,4 +484,63 @@ li {
 .copyright > p {
   font-size: 13px;
   line-height: 18px;
+}
+
+/* ----------------------------- SCREEN RESOLUTION 768PX --------------- */
+
+@media screen and (min-width: 768px) {
+  .page-header {
+    justify-content: flex-start;
+  }
+
+  .left {
+    min-width: 106px;
+    height: 80px;
+  }
+
+  .page-header .right {
+    display: none;
+  }
+
+  .right-768px {
+    display: block;
+    height: 80px;
+  }
+
+  .upper {
+    background-color: #000;
+  }
+
+  .upper-nav {
+    height: 32px;
+    max-height: 32px;
+    padding: 5px 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .upper-nav a {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 12px;
+    padding: 0 6px;
+  }
+
+  .lower {
+    height: 48px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .lower a {
+    font-size: 14px;
+    color: #aaa;
+    padding: 0 6px;
+    text-transform: uppercase;
+  }
+
+  .lower i {
+    margin-right: 8px;
+    color: #aaa;
+  }
 }
