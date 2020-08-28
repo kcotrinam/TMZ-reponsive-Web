@@ -5,7 +5,11 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+.russo-font {
+  font-family: "Russo One", Helvetica, sans-serif;
 }
 
 a {
@@ -117,11 +121,11 @@ li {
 }
 
 .banner2 {
-  background: url('../images&svgs/boris-chair-gq-796x417.png');
+  background: url("../images&svgs/boris-chair-gq-796x417.png");
 }
 
 .banner3 {
-  background: url('../images&svgs/tnw2020-empty_feature_img.jpg');
+  background: url("../images&svgs/tnw2020-empty_feature_img.jpg");
 }
 
 .banner > span {
@@ -281,10 +285,6 @@ li {
 
 /* ----------------------- HARD FORK SECTION --------------- */
 
-.news-sections h1 {
-  font-family: 'Russo One', Helvetica, sans-serif;
-}
-
 .article__banner {
   height: 280px;
 }
@@ -304,8 +304,52 @@ li {
   margin-top: 0.5rem;
 }
 
-.first__hard-fork__article {
+.news-sections__child {
+  margin-top: 20px;
+}
+
+.bg-article1 {
   background: url(../images&svgs/unicorn.png) center/cover;
+  margin-bottom: 2px;
+}
+
+.bg-article2 {
+  background: url(../images&svgs/blue-ray.jpg) center/cover;
+  margin-bottom: 2px;
+}
+
+.bg-article3 {
+  background: url(../images&svgs/boris-chair-gq-796x417.png) center/cover;
+  margin-bottom: 2px;
+}
+
+.bg-article4 {
+  background: url(../images&svgs/child.jpg) center/cover;
+  margin-bottom: 2px;
+}
+
+.bg-article5 {
+  background: url(../images&svgs/dark-car.png) center/cover;
+  margin-bottom: 2px;
+}
+
+.bg-article6 {
+  background: url(../images&svgs/glasses.png) center/cover;
+  margin-bottom: 2px;
+}
+
+.bg-article7 {
+  background: url(../images&svgs/home.jpg) center/cover;
+  margin-bottom: 2px;
+}
+
+.bg-article8 {
+  background: url(../images&svgs/people.jpg) center/cover;
+  margin-bottom: 2px;
+}
+
+.bg-article9 {
+  background: url(../images&svgs/shft.png) center/cover;
   margin-bottom: 2px;
 }
 
@@ -351,7 +395,7 @@ li {
 }
 
 .normal-li a::before {
-  content: '\2022';
+  content: "\2022";
   color: #f42;
   font-weight: bold;
   display: inline-block;
