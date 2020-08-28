@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -117,11 +117,11 @@ li {
 }
 
 .banner2 {
-  background: url("../images&svgs/boris-chair-gq-796x417.png");
+  background: url('../images&svgs/boris-chair-gq-796x417.png');
 }
 
 .banner3 {
-  background: url("../images&svgs/tnw2020-empty_feature_img.jpg");
+  background: url('../images&svgs/tnw2020-empty_feature_img.jpg');
 }
 
 .banner > span {
@@ -282,7 +282,7 @@ li {
 /* ----------------------- HARD FORK SECTION --------------- */
 
 .news-sections h1 {
-  font-family: "Russo One", Helvetica, sans-serif;
+  font-family: 'Russo One', Helvetica, sans-serif;
 }
 
 .article__banner {
@@ -342,6 +342,7 @@ li {
 
 .normal-li {
   border-bottom: 1px solid #aaa;
+  padding: 0.3rem;
 }
 
 .normal-li a {
@@ -350,10 +351,14 @@ li {
 }
 
 .normal-li a::before {
-  content: "\2022";
+  content: '\2022';
   color: #f42;
   font-weight: bold;
   display: inline-block;
   width: 1em;
   margin-left: -1em;
+}
+
+.normal-li h2 {
+  line-height: 15px;
 }
