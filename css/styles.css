@@ -199,11 +199,13 @@ li {
   background-position: center;
   background-size: cover;
 }
+
 .news-article3 {
   background-image: url(../images&svgs/latest-news-imgs/3.png);
   background-position: center;
   background-size: cover;
 }
+
 .news-article4 {
   background-image: url(../images&svgs/latest-news-imgs/4.jpg);
   background-position: center;
@@ -688,6 +690,7 @@ li {
     display: flex;
     justify-content: space-between;
   }
+
   .card:not(:first-child) {
     margin-left: 10px;
     height: 315px;
