@@ -440,6 +440,51 @@ li {
   line-height: 15px;
 }
 
+/* ----------------------- HARD DEALS SECTION --------------- */
+
+.bg-img1 {
+  background: url("https://cdnp2.stackassets.com/d2af7f1cd1b3e01e4b9dd8ad7a5c362acd1f6d60/store/49052f9477ad5cc5067aa29931f1cdd3934b2461664e2f540a2d94da9cf4/sale_36849_primary_image.jpg");
+}
+
+.bg-img2 {
+  background: url("https://cdnp0.stackassets.com/7963f2e18379b178b6f028289b23c1a201fa5d01/store/4dd4ed1c0124f4b5a08261e321170102fd10c72d9caabd5286902ddf6625/sale_36919_primary_image.jpg");
+}
+
+.bg-img3 {
+  background: url("https://cdnp2.stackassets.com/a05e77423f3849b7fb5e07c8c02c4c3701ddc40c/store/9a96d014fc94b5612887f31817a06131a6e3ff90e98605b0438084415b25/product_47836_product_shots2.jpg");
+}
+
+.bg-img4 {
+  background-image: url("https://cdnp1.stackassets.com/83b8740c47d610dc01966c19173ee0fd0ee06d1d/store/491265567a22684528eb07c8401d2dcdae5bed9d00dd8bd4d92b286b6163/sale_37000_primary_image.jpg");
+}
+
+.bg-img5 {
+  background-image: url("https://cdnp1.stackassets.com/85ad45fd2d5e7c9465c984fc7e8aceff565a0e9f/store/e613213f7ea8da7e092f5ec3aa4be6d42ff36736d6f49b2a5042e5bed9e4/sale_38683_primary_image.jpg");
+}
+
+.bg-img6 {
+  background-image: url("https://cdnp1.stackassets.com/85ad45fd2d5e7c9465c984fc7e8aceff565a0e9f/store/e613213f7ea8da7e092f5ec3aa4be6d42ff36736d6f49b2a5042e5bed9e4/sale_38683_primary_image.jpg");
+}
+
+.bg-img7 {
+  background-image: url("https://cdnp2.stackassets.com/30b8626d6307b0a25033f8be6481a19b3f3cb2bf/store/d0129dd349da2b9ef2e58fab523b05db640c94eec79f01fe84158d7660bc/sale_21597_primary_image.jpg");
+}
+
+.bg-img8 {
+  background-image: url("https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg");
+}
+
+.bg-img9 {
+  background-image: url("https://cdnp1.stackassets.com/0c0dd3e2584d830cd20ffd96885a9311f069ca09/store/09326714b507a4546a898c58ff62d01c4f634bd02451a4a1e51d8b1de60a/sale_27983_primary_image.jpg");
+}
+
+.bg-container {
+  min-width: 75px;
+  min-height: 75px;
+  background-position: center;
+  background-size: cover;
+}
+
 /* FOOTER */
 
 .footer {
@@ -651,5 +696,11 @@ li {
 
   .news-sections__child {
     width: 48%;
+  }
+
+  /* --------------------------- LATEST DEALS SECTION ---------------------- */
+  .bg-container {
+    min-width: 75px;
+    min-height: 170px;
   }
 }
