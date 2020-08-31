@@ -686,6 +686,7 @@ li {
 
   .card-container {
     display: flex;
+    justify-content: space-between;
   }
   .card:not(:first-child) {
     margin-left: 10px;
@@ -736,7 +737,7 @@ li {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
   }
 
   .fund-nav__list {
