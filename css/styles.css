@@ -725,6 +725,35 @@ li {
 /* ------------------- WIDTH 1024PX ------------------- */
 
 @media only screen and (min-width: 1024px) {
+  .left {
+    display: none;
+  }
+
+  .banner1 > .bg-gradient:before {
+    content: "";
+    width: 100%;
+    height: 75%;
+    background: linear-gradient(
+      160deg,
+      rgb(255, 124, 101) 20%,
+      #f42 30%,
+      transparent
+    );
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .bg-gradient > img {
+    display: block;
+    width: 345px;
+    height: auto;
+    position: relative;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+
   .news {
     width: 23.5%;
   }
