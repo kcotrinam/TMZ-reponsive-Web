@@ -720,4 +720,29 @@ li {
   .news {
     width: 23.5%;
   }
+
+  /* ------------------- LATEST FUND SECTION ------------------ */
+
+  .width-90 {
+    width: 96%;
+  }
+
+  .fund-nav__list {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .fund-nav__list * + * {
+    margin-left: 15px;
+    border-left: 2px solid #f42;
+  }
+
+  .fund-nav__list a {
+    padding-left: 15px;
+    font-size: 16px;
+  }
+
+  .card {
+    max-width: 252px;
+  }
 }
