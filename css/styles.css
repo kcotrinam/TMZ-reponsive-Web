@@ -172,7 +172,7 @@ li {
 }
 
 .latest-news h1 {
-  margin: 20px;
+  margin: 20px auto 20px;
 }
 
 .news-container {
@@ -238,6 +238,10 @@ li {
 
 .latest-funding {
   margin: 30px auto;
+}
+
+.fund-nav__container {
+  flex-direction: column;
 }
 
 .fund-nav__list,
@@ -725,6 +729,14 @@ li {
 
   .width-90 {
     width: 96%;
+    max-width: 1152px;
+  }
+
+  .fund-nav__container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
   }
 
   .fund-nav__list {
@@ -744,5 +756,15 @@ li {
 
   .card {
     max-width: 252px;
+  }
+
+  .card-1024 {
+    display: block;
+  }
+
+  /* --------------------------- NEWS SECTION ---------------------- */
+
+  .news-sections__child {
+    width: 32%;
   }
 }
