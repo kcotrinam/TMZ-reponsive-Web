@@ -501,8 +501,8 @@ li {
 }
 
 .footer__networks li {
-  padding: 0.5rem;
-  background-color: gray;
+  padding: 0.6rem;
+  background-color: #333;
   border-radius: 50%;
   transition: 0.2s;
 }
@@ -521,7 +521,7 @@ li {
 }
 
 .footer__networks i {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .footer__contact {
@@ -702,5 +702,22 @@ li {
   .bg-container {
     min-width: 75px;
     min-height: 170px;
+  }
+
+  /* ------------------- FOOTER ------------------ */
+  .copyright {
+    flex-direction: row;
+  }
+
+  .copyright p:not(:first-child) {
+    margin-left: 6px;
+  }
+}
+
+/* ------------------- WIDTH 1024PX ------------------- */
+
+@media only screen and (min-width: 1024px) {
+  .news {
+    width: 23.5%;
   }
 }
