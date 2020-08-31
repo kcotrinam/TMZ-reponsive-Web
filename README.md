@@ -4,7 +4,7 @@
 
 > A responsive page that displays perfectly on all screen sizes.
 
-![screenshot](.\images&svgs\app_screenshot.png)
+![screenshot](./images&svgs/app_screenshot.png)
 
 ## Built With
 
