@@ -312,6 +312,10 @@ li {
 
 /* ----------------------- HARD FORK SECTION --------------- */
 
+.news-sections {
+  flex-wrap: wrap;
+}
+
 .article__banner {
   height: 280px;
 }
@@ -589,7 +593,7 @@ li {
     height: 481px;
   }
 
-  .info-container > h2 {
+  .banner .big-font-size {
     font-size: 36px;
     font-weight: bold;
   }
@@ -637,5 +641,15 @@ li {
   .card:not(:first-child) {
     margin-left: 10px;
     height: 315px;
+  }
+
+  /* --------------------------- NEWS SECTION ---------------------- */
+
+  .news-sections {
+    justify-content: space-between;
+  }
+
+  .news-sections__child {
+    width: 48%;
   }
 }
