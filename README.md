@@ -13,13 +13,13 @@
 
 ## Live Demo
 
-[Live Demo Link](https://kcotrinam92.github.io/TMZ-reponsive-Web/)
+[Live Demo Link](https://kcotrinam.github.io/TMZ-reponsive-Web/)
 
 ## Authors
 
 👤 **Kevin Cotrina**
 
-- Github: [@githubhandle](https://github.com/kcotrinam92)
+- Github: [@githubhandle](https://github.com/kcotrinam)
 - Twitter: [@twitterhandle](https://twitter.com/KevinCot12)
 - Linkedin: [linkedin](https://www.linkedin.com/in/kevin-cotrina-6208b7149/)
 
