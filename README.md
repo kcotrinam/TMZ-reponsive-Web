@@ -21,7 +21,7 @@
 
 - Github: [@githubhandle](https://github.com/kcotrinam)
 - Twitter: [@twitterhandle](https://twitter.com/KevinCot12)
-- Linkedin: [linkedin](https://www.linkedin.com/in/kevin-cotrina-6208b7149/)
+- Linkedin: [linkedin](https://www.linkedin.com/in/kevincotrina/)
 
 👤 **Martin Najjar**
 
